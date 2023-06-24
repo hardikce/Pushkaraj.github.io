@@ -569,6 +569,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
+  
 }
 
 .about h3 {
@@ -1652,4 +1653,26 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+table.customTable {
+  width: 91%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #F8E00C;
+  border-style: solid;
+  color: #1C1418;
+  text-align: center;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 2px;
+  border-color: #F8E00C;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #F89B0F;
 }
